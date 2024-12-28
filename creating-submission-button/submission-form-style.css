@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+fieldset {
+    border-style: dotted;
+    border-color: dimgrey;
+}
+
+legend {
+    font-size: 24px;
+}
+
+.button {
+    background-color: darkblue;
+    border: none;
+    padding: 10px 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.button:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.button:active {
+    background-color: darkblue;
+}
+
+h2 {
+    font-style: italic;
+}

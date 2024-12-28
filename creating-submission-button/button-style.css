@@ -1,0 +1,34 @@
+/* Task 2: Use CSS to style the button with hover effects using pseudo-classes (:hover) */
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+h2 {
+    font-style: italic;
+}
+
+.button {
+    background-color: darkblue;
+    border: none;
+    padding: 10px 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.button:active {
+    background-color: darkblue;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}

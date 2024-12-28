@@ -1,0 +1,31 @@
+<!-- Task 3: Create a separate HTML file for the recipe submission form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Recipe Submission Form</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="submission-form-style.css"></head>
+<body>
+    <header>
+        <h1>Recipe Submission Form</h1>
+    </header>
+    <h2>Enter your recipe information below!</h2>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Recipe Name</legend>
+            <input type="text" id="name" name="name" placeholder="Enter recipe name" required>
+        </fieldset>
+        <fieldset>
+            <legend>Recipe Ingredients</legend>
+            <textarea id="ingredients" name="ingredients" rows="10" cols="50" placeholder="Enter your recipe ingredients here (separated by commas)" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Recipe Steps</legend>
+            <textarea id="steps" name="steps" rows="10" cols="50" placeholder="Enter your recipe steps here (separated by commas)" required></textarea>
+        </fieldset>
+        <div>
+            <button class="button" type="submit">Enter</button>
+        </div>
+        </form>
+</body>
+</html>
