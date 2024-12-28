@@ -1,0 +1,73 @@
+/* Task 1: Use CSS to style the chocolate chip cookie recipe according to the following requirements */
+
+img {
+    width: 20%;
+    border-radius: 10px;
+}
+
+h1 > a {
+    font-family: Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: bold;
+    color: cadetblue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+#ingredients > h2 {
+    color: white;
+}
+
+#steps > h2 {
+    color: cadetblue;
+}
+
+#ingredients {
+    background-color: cadetblue;
+}
+
+#ingredients > ul > li {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    list-style-type: circle;
+    line-height: 1.6;
+}
+
+#steps > ol > li {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+#ingredients, #steps {
+    padding: 30px;
+}
+
+main {
+    border-color: black;
+    border-style: solid;
+}
+
+header, footer {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #e8e8e8;
+    padding: 10px 30px;
+}
