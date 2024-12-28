@@ -1,0 +1,1 @@
+This repository includes the assignment: CSS Fundamentals in Module 8: Lesson 1 of the Software Engineering Core.
